@@ -5,13 +5,10 @@ setmetatable(net, {
 })
 
 local hook_Call = hook.Call
-local math_abs = math.abs
-local math_min = math.min
 local IsValid 	= IsValid
 local Entity 	= Entity
 local Color 	= Color
 local WriteUInt = net.WriteUInt
-local ReadUInt 	= net.ReadUInt
 local Start 	= net.Start
 local Send 		= (SERVER) and net.Send or net.SendToServer
 
